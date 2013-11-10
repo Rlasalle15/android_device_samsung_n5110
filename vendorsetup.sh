@@ -1,0 +1,4 @@
+add_lunch_combo full_n5110-codefirex
+add_lunch_combo full_n5110-eng
+add_lunch_combo full_n5110-userdebug
+
