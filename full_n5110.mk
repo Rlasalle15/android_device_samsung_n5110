@@ -31,6 +31,7 @@ $(call inherit-product, device/samsung/n5110/device.mk)
 
 ifneq ($(TARGET_BUILD_VARIANT),codefirex)
 
+$(call inherit-product, vendor/cfx/config/common_full_tablet_wifionly.mk)
 # Copy Bootanimation
 PRODUCT_COPY_FILES += \
     vendor/cfx/prebuilt/common/bootanimation/720.zip:system/media/bootanimation.zip
